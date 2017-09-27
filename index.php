@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<form action="process_form.php" method="post" autocomplete="on">
+<p>This is a test application to check if AUTO FILL is working</p>
+<br>
+  <br>
+<form action="process_form.php" method="get" autocomplete="on">
   First name:<input type="text" name="fname"><br>
   E-mail: <input type="email" name="email"><br>
-  Mobile :<input type="text" name="mobile"><br>
   <input type="submit">
 </form>
 
-<p>Fill in and submit the form, then reload the page, start to fill in the form again - and see how autocomplete works.</p>
-<p>Then, try to set autocomplete to "off".</p>
 
-<p><b>Note:</b> The autocomplete attribute of the form element is not supported in Opera 12 and earlier versions.</p>
 
 </body>
 </html>
