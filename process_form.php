@@ -1,5 +1,5 @@
 <?php
 
-echo "Welcome "$_POST['fname'];
+echo "Welcome ".$_POST['fname'];
 
 ?>
