@@ -6,7 +6,7 @@
   <br>
 <form action="process_form.php" method="get" autocomplete="on">
   First name:<input type="text" name="fname"><br>
-  E-mail: <input type="email" name="email"><br>
+  Email: <input type="email" name="email"><br>
   Mobile: <input type="text" name="mobile"><br>
   <input type="submit">
 </form>
